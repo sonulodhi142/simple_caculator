@@ -17,14 +17,14 @@ check = 'y'
 
 while check == 'y':
 
-    print("Select opration for two oprands:-")
+    print("\n\nSelect opration for two oprands:-")
     print("1. click '+' for adition")
-    print("2. click '-' for adition")
-    print("3. click '*' for adition")
-    print("4. click '/' for adition")
-    print("5. click '//' for adition")
-    print("6. click '%' for adition")
-    print("7. click '**' for adition")
+    print("2. click '-' for substraction")
+    print("3. click '*' for multiplication")
+    print("4. click '/' for division")
+    print("5. click '//' for for floor Value")
+    print("6. click '%' for remainder")
+    print("7. click '**' for exponential")
     choice = input("Please Enter your choise::")
     num1 = int(input("Enter the first number ::"))
     num2 = int(input("Enter the Second number ::"))
