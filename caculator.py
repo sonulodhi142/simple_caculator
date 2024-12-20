@@ -49,3 +49,5 @@ while check == 'y':
 
 
     check = input("Enter 'y' for more opration\nEnter 'n' for exit program::")
+
+print("\n The program is succesfully exited :")
