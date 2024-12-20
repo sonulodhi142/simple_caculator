@@ -12,3 +12,11 @@ def remainder(a,b):
     return a%b
 def power(a,b):
     return a**b
+
+check = 'y'
+
+while check == 'y':
+
+
+
+    check = input("Enter 'y' for more opration\nEnter 'n' for exit program::")
