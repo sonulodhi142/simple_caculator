@@ -30,7 +30,21 @@ while check == 'y':
     num2 = int(input("Enter the Second number ::"))
 
     if choice == '+':
-        print(f"The addition of ")
+        print(f"\nThe addition of {num1} and {num2} is {addition(num1,num2)}\n\n")
+    elif choice == '-':
+        print(f"\nThe Substraction of {num1} and {num2} is {addition(num1,num2)}\n\n")
+    elif choice == '*':
+        print(f"\nThe multiplication of {num1} and {num2} is {addition(num1,num2)}\n\n")
+    elif choice == '/':
+        print(f"\nThe division of {num1} and {num2} is {addition(num1,num2)}")
+    elif choice == '//':
+        print(f"\nThe floorvalue of when {num1} divided by {num2} is {addition(num1,num2)}\n\n")
+    elif choice == '%':
+        print(f"\nThe remainder of when {num1} divided by {num2} is {addition(num1,num2)}\n\n")
+    elif choice == '**':
+        print(f"\nThe result of {num1} to the power {num2} is {addition(num1,num2)}\n\n")
+    else:
+        print("\nplease Enter the vailed choise:-\n\n")
 
 
 
